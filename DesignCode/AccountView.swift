@@ -76,7 +76,7 @@ struct AccountView: View {
     
     var website: some View {
         Section {
-            if isDeleted == false {
+            if false == isDeleted {
                 Link(destination: URL(string: "https://apple.com")!) {
                     HStack {
                         Label("Website", systemImage: "house")
@@ -85,11 +85,8 @@ struct AccountView: View {
                             .foregroundColor(.secondary)
                     }
                 }
-                .swipeActions(edge: .leading ,allowsFullSwipe: true) {
-                    Button(action: { isDeleted = true }) {
-                        Label("Delete", systemImage: "trash")
-                    }.tint(.red.opacity(0.75))
-                    
+                .swipeActions(edge: .trailing ,allowsFullSwipe: true) {
+                    deleteBtn
                     pinBtn
                 }
             }
@@ -110,6 +107,12 @@ struct AccountView: View {
         .listRowSeparator(.hidden)
     }
     
+    var deleteBtn: some View {
+        Button(action: { isDeleted = true }) {
+            Label("Delete", systemImage: "trash")
+        }.tint(.red.opacity(0.75))
+    }
+    
     var pinBtn: some View {
         Button { isPinned.toggle() } label: {
             if isPinned {
@@ -120,6 +123,7 @@ struct AccountView: View {
         }.tint(isPinned ? .gray :  .yellow.opacity(0.75))
     }
 }
+
 
 struct AccountView_Previews: PreviewProvider {
     static var previews: some View {
