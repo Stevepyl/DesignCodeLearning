@@ -10,6 +10,7 @@
 		1E0F6943288A4988002D3F17 /* AccountView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E0F6942288A4988002D3F17 /* AccountView.swift */; };
 		1E2B670328E2F3FD00DD3185 /* HexagonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E2B670228E2F3FD00DD3185 /* HexagonView.swift */; };
 		1E43AF972877D5A7009F5ECB /* Styles.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E43AF962877D5A7009F5ECB /* Styles.swift */; };
+		1EC095C729670E4600941A03 /* BlobView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1EC095C629670E4600941A03 /* BlobView.swift */; };
 		1ED92A2E280B225D00863CAD /* DesignCodeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED92A2D280B225D00863CAD /* DesignCodeApp.swift */; };
 		1ED92A30280B225D00863CAD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED92A2F280B225D00863CAD /* ContentView.swift */; };
 		1ED92A32280B225F00863CAD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1ED92A31280B225F00863CAD /* Assets.xcassets */; };
@@ -20,6 +21,7 @@
 		1E0F6942288A4988002D3F17 /* AccountView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountView.swift; sourceTree = "<group>"; };
 		1E2B670228E2F3FD00DD3185 /* HexagonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexagonView.swift; sourceTree = "<group>"; };
 		1E43AF962877D5A7009F5ECB /* Styles.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Styles.swift; sourceTree = "<group>"; };
+		1EC095C629670E4600941A03 /* BlobView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlobView.swift; sourceTree = "<group>"; };
 		1ED92A2A280B225D00863CAD /* DesignCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1ED92A2D280B225D00863CAD /* DesignCodeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignCodeApp.swift; sourceTree = "<group>"; };
 		1ED92A2F280B225D00863CAD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				1ED92A2F280B225D00863CAD /* ContentView.swift */,
 				1E43AF962877D5A7009F5ECB /* Styles.swift */,
 				1E0F6942288A4988002D3F17 /* AccountView.swift */,
+				1EC095C629670E4600941A03 /* BlobView.swift */,
 				1E2B670228E2F3FD00DD3185 /* HexagonView.swift */,
 				1ED92A31280B225F00863CAD /* Assets.xcassets */,
 				1ED92A33280B225F00863CAD /* Preview Content */,
@@ -149,6 +152,7 @@
 				1E0F6943288A4988002D3F17 /* AccountView.swift in Sources */,
 				1E2B670328E2F3FD00DD3185 /* HexagonView.swift in Sources */,
 				1ED92A30280B225D00863CAD /* ContentView.swift in Sources */,
+				1EC095C729670E4600941A03 /* BlobView.swift in Sources */,
 				1E43AF972877D5A7009F5ECB /* Styles.swift in Sources */,
 				1ED92A2E280B225D00863CAD /* DesignCodeApp.swift in Sources */,
 			);

@@ -33,10 +33,7 @@ struct AccountView: View {
                 .padding()
                 .background(Circle().fill(.ultraThinMaterial))
                 .background(
-                    Image(systemName: "hexagon")
-                        .symbolVariant(.fill)
-                        .foregroundColor(.blue)
-                        .font(.system(size: 200))
+                    HexagonView()
                         .offset(x: -50, y: -100)
                 )
             Text("Steve Liu")
@@ -85,7 +82,7 @@ struct AccountView: View {
                             .foregroundColor(.secondary)
                     }
                 }
-                .swipeActions(edge: .trailing ,allowsFullSwipe: true) {
+                .swipeActions(edge: .leading ,allowsFullSwipe: true) {
                     deleteBtn
                     pinBtn
                 }
